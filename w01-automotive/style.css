@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.cta {
+  background-color: #00c2ff;
+  padding: 0.75rem 2rem;
+}
+
+.nav-container {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 3.5rem;
+  padding-right: 1rem;
+}
+.navbar h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li:not(:last-child) {
+  padding-right: 2rem;
+}
+
+.navbar a {
+  color: inherit;
+
+  font-size: 1.25rem;
+}
+
+.showcase {
+  background: url('./img/car-bg.jpg') no-repeat center center/cover;
+  min-height: 90vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.showcase .heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #00c2ff;
+}
+
+.showcase .lead {
+  font-size: 2.5rem;
+}
+
+.showcase .cta {
+  margin: 2rem 0;
+  display: inline-block;
+  font-size: 1.25rem;
+  color: inherit;
+}
+
+.footer {
+  padding: 1.5rem 0;
+  min-height: 10vh;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #111;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-item {
+  color: #00c2ff;
+}
